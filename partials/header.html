@@ -19,6 +19,10 @@
 	<ul>
 		<!-- <li><a href="#/items" title="">Menu Items</a></li> -->
 		<li><a href="#/display" title="">Display</a></li>
-		<li ng-show="tools.user.is('Admin')"><a ng-href="#/admin" title="Visit the Admin Console"><i class="fa fa-dashboard"></i> {{'SITE.NAV.ADMIN' | translate}}</a></li>
+		<li ng-show="tools.user.is('Admin')">
+			<a ng-href="#/admin" title="Visit the Admin Console">
+				<i class="fa fa-dashboard"></i> <span>{{'SITE.NAV.ADMIN' | translate}}</span>
+			</a>
+		</li>
 	</ul>
 </nav>
